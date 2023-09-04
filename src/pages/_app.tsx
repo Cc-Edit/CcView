@@ -45,6 +45,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, [mode]);
 
   useEffect(() => {
+    // eslint-disable-next-line no-console
     console.log(router);
     const handleStart = () => {
       NProgress.start();
