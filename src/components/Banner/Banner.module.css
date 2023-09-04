@@ -1,0 +1,7 @@
+.canvas {
+  @apply absolute top-0 bottom-0 m-auto right-140 left-0
+}
+
+.video {
+  @apply hidden
+}

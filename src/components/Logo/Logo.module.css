@@ -1,0 +1,4 @@
+.logo {
+  @apply inline-block absolute top-0 left-0;
+  @apply transition-all duration-200 z-30;
+}

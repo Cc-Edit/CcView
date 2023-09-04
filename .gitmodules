@@ -1,0 +1,6 @@
+[submodule "src/bailu"]
+	path = src/bailu
+	url = git@github.com:Cc-Edit/CcBailu.git
+[submodule "src/components/Design"]
+	path = src/components/Design
+	url = git@github.com:Cc-Edit/CcDesign.git

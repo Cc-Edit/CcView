@@ -1,0 +1,18 @@
+.container {
+  @apply w-100 translate-y-1 rounded-lg p-5 shadow-2xl  border border-solid;
+  @apply hover:shadow-xl transition ease-in-out delay-75;
+  @apply fixed right-40 top-1/2 -translate-y-1/2;
+}
+
+.title {
+  @apply w-full font-bold border-amber-400 relative pl-3 mt-1 mb-8;
+}
+
+.title::before {
+  content: '';
+  @apply block w-1 h-4 absolute left-0 top-1 bg-amber-400 rounded
+}
+
+.password {
+  @apply text-gray-50
+}

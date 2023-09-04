@@ -1,0 +1,12 @@
+.list_container {
+  @apply h-full z-20 flex flex-col relative transition-all duration-200;
+  @apply border-r border-0 border-solid;
+}
+
+.MuiListItemText-root span {
+  @apply text-xs
+}
+
+.MuiSvgIcon-root {
+  @apply w-5 h-5
+}
