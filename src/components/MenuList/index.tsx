@@ -41,7 +41,7 @@ export default function MenuList({ hide = false } : MenuListProps) {
     const { pathname } = router;
     const activeMenu = findMenuByHref(pathname);
     setActive(activeMenu?.key || 'home');
-  }, []);
+  }, [router]);
   // 缩小后的菜单hover弹出子菜单
   const handlePopoverOpen = (event: MouseEvent<HTMLElement>, menu: MenuType) => {
     setSelectMenu(menu);
