@@ -38,7 +38,7 @@ export default function MenuList({ hide = false } : MenuListProps) {
   };
   // 初始化完成后选中当前菜单
   useEffect(() => {
-    const pathname = window.location.pathname;
+    const { pathname } = router;
     const activeMenu = findMenuByHref(pathname);
     setActive(activeMenu?.key || 'home');
   }, []);

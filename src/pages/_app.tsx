@@ -55,10 +55,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     const handleStop = () => {
       NProgress.done();
     };
-    const { pathname, asPath } = router;
-    if (pathname !== asPath) {
-      router.push(asPath);
-    }
     router.events.on('routeChangeStart', handleStart);
     router.events.on('routeChangeComplete', handleStop);
     router.events.on('routeChangeError', handleStop);
