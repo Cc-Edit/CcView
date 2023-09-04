@@ -16,7 +16,7 @@ interface MenuListProps {
 export default function MenuList({ hide = false } : MenuListProps) {
   const [expandMap, setExpandMap] = useState<Record<string, any>>({});
   const [selectMenu, setSelectMenu] = useState<MenuType | null>(null);
-  const [activeKey, setActive] = useState('home');
+  const [activeKey, setActive] = useState('');
   const [expand, setExpand] = useState(true);
   const [anchorElUser, setAnchorElUser] = useState<null | HTMLElement>(null);
   const router = useRouter();
