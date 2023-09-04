@@ -45,6 +45,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, [mode]);
 
   useEffect(() => {
+    console.log(router);
     const handleStart = () => {
       NProgress.start();
     };
