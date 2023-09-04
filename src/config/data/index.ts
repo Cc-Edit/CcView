@@ -108,7 +108,7 @@ export const MenuData: MenuType[] = [
 export function findMenuByHref(href: string): MenuType {
   let menu = {};
   MenuData.forEach(item => {
-    if (item.href === href) {
+    if (item.href && href.indexOf(item.href) === 0) {
       menu = item;
     }
     if (Number(item?.child?.length) > 0) {
