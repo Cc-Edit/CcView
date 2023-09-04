@@ -45,8 +45,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, [mode]);
 
   useEffect(() => {
-    // eslint-disable-next-line no-console
-    console.log(router);
     const { pathname, asPath } = router;
     if (pathname === '/' && pathname !== asPath) {
       router.push(asPath);

@@ -38,9 +38,11 @@ export default function MenuList({ hide = false } : MenuListProps) {
   };
   // 初始化完成后选中当前菜单
   useEffect(() => {
-    const { pathname } = router;
-    const activeMenu = findMenuByHref(pathname);
-    setActive(activeMenu?.key || 'home');
+    const { pathname, asPath } = router;
+    if (pathname !== '/' || pathname === asPath) {
+      const activeMenu = findMenuByHref(pathname);
+      setActive(activeMenu?.key || 'home');
+    }
   }, [router]);
   // 缩小后的菜单hover弹出子菜单
   const handlePopoverOpen = (event: MouseEvent<HTMLElement>, menu: MenuType) => {
