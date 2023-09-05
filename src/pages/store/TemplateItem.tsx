@@ -34,8 +34,8 @@ export default function TemplateItem({ data, onEvent }: TemplateItemProp) {
   const [showButton, setShowButton] = useState(false);
 
   return (
-    <div className='shrink-0 w-full'>
-      <div className='relative flex flex-col w-full h-36 bg-zinc-400 bg-opacity-10 rounded-lg border border-solid dark:border-zinc-500 border-zinc-300 overflow-hidden'>
+    <div className='shrink-0 w-full h-full'>
+      <div className='relative flex flex-col w-full h-full bg-zinc-400 bg-opacity-10 rounded-lg border border-solid dark:border-zinc-500 border-zinc-300 overflow-hidden'>
         <b className='flex flex-row items-center text-xs overflow-ellipsis whitespace-nowrap p-1 absolute top-0 left-0 right-0 dark:text-zinc-100 text-zinc-800 h-6 z-10 dark:bg-zinc-700 bg-zinc-300 bg-opacity-70 pl-2'>
           <i className='border-0 border-l-2 border-dashed border-yellow-500 block bg-amber-500 mr-2 w-1 h-3'></i>
           模板：{data.name}

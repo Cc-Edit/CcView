@@ -84,7 +84,7 @@ export default function Store() {
 
   const child = templateList.length === 0 ? <EmptyContainer className='mt-20' text='还没有添加模板~' /> : templateList.map((item, index) => {
     return (
-      <div key={index} className='sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/5 2xl:w-1/5 p-1'>
+      <div key={index} className='w-full sm:w-1/2 md:w-1/2 lg:w-1/4 xl:w-1/4 2xl:w-1/5 p-1 h-52 sm:h-52 md:h-52 lg:h-40 xl:h-44 2xl:h-52'>
         <div className='w-full h-full'>
           <TemplateItem data={item} onEvent={handleEvent} />
         </div>
