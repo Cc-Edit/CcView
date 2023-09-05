@@ -34,7 +34,7 @@ const handleResponseError = (error: AxiosError) => {
   if (error.response) {
     if (error.response?.status === 401) {
       // 状态编码为401，无权限，需要重定向到login页面
-      window.location.replace('/login');
+      Router.push('/login');
     }
     if (error.response?.status === 403) {
       // 状态编码为403，无权限，需要提示用户当前操作权限不足
