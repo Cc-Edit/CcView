@@ -36,7 +36,8 @@ const AvatarItem = forwardRef((props: FormItemTempProp, ref) => {
           }
         })
         .catch(e => {
-          enqueueSnackbar(`头像上传失败: 上传异常`, {
+          const { msg = '上传异常' } = e || {};
+          enqueueSnackbar(`头像上传失败: ${msg}`, {
             variant: 'error'
           });
         });
