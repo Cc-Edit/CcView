@@ -73,10 +73,10 @@ export default function Sale() {
           <div className='container max-w-full mx-auto py-12 px-6'>
             <div className='max-w-full'>
               <div className='relative flex flex-nowrap  flex-col md:flex-row items-center'>
-                <PriceItem className='w-100 shrink-0 mr-8' data={freeData} />
-                <PriceItem className='w-100 shrink-0 scale-110 z-10' data={proData}/>
-                <PriceItem className='w-100 shrink-0 ml-8' data={vipData}/>
-                <PriceItem className='w-100 shrink-0 ml-4' data={upData}/>
+                <PriceItem className='w-100  2xl:w-120  shrink-0 mr-8' data={freeData} />
+                <PriceItem className='w-100  2xl:w-120 shrink-0 scale-110 z-10' data={proData}/>
+                <PriceItem className='w-100  2xl:w-120 shrink-0 ml-8' data={vipData}/>
+                <PriceItem className='w-100  2xl:w-120 shrink-0 ml-4' data={upData}/>
               </div>
             </div>
           </div>
