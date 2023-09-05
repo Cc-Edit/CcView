@@ -1,3 +1,8 @@
+|                                     学习讨论小组🍻                                      |   打赏（赠送学习资料：[webNote](https://github.com/Cc-Edit/webNote)） :confetti_ball:    | 
+|:---------------------------------------------------------------------------------:|:---------------------------------------------------------------------:| 
+| ![wechatGroup.png](public%2FwechatGroup.png) |     ![wechatReward.png](public%2FwechatReward.png)  |
+
+
 # CcView
 
 ## demo地址

@@ -15,7 +15,7 @@ export default function TipBox({ className }: TipBoxProps) {
     setAnchorEl(null);
   };
   const tipImage = '/3d/3d-business-little-boy-in-online-lesson.png';
-  const codeImage = '/wechat.png';
+  const codeImage = '/wechatGroup.png';
   const open = Boolean(anchorEl);
   return (
     <div className={`${className} relative`}>
