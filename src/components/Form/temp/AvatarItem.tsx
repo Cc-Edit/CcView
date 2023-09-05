@@ -27,7 +27,7 @@ const AvatarItem = forwardRef((props: FormItemTempProp, ref) => {
           if (res?.isOk) {
             const { data } = res;
             const [imageId] = data as string[];
-            const imageUrl = `${Domain.baseURL}/${imageId}.${file.type.replace('image/', '')}`;
+            const imageUrl = `${Domain.baseOSS}/${imageId}.${file.type.replace('image/', '')}`;
             setCover(imageUrl);
           } else {
             enqueueSnackbar(`头像上传失败：${res?.msg}`, {

@@ -1,5 +1,6 @@
 export const Domain = {
-  baseURL: process.env.NEXT_PUBLIC_BASEURL
+  baseURL: process.env.NEXT_PUBLIC_BASEURL,
+  baseOSS: process.env.NEXT_PUBLIC_BASEOSS
 };
 // 全局常量
 export const Constant = {
