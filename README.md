@@ -99,3 +99,4 @@
 ### 版权
 #### 插画与图标 [https://igoutu.cn/](https://igoutu.cn/)
 #### 画板标尺 (基于 react18 翻新 mb-sketch-ruler )： [mb-sketch-ruler](https://github.com/mockingbot/mb-sketch-ruler)
+#### 头像、默认模板背景图：千图网个人商用授权

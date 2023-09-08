@@ -8,6 +8,9 @@ export default function Copyright() {
       <Link target='_blank' underline='hover' rel='noopener noreferrer' color='inherit' href='https://beian.miit.gov.cn/'>
         京ICP备2023019680号
       </Link>
+      <Link target='_blank' underline='hover' rel='noopener noreferrer' color='inherit' href='https://icons8.com/'>
+        Icons by icons8
+      </Link>
     </Typography>
   );
 }
