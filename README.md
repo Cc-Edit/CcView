@@ -94,7 +94,7 @@
 ![](./preview/500.png)
 
 #### 维护页面
-![](./preview/500-maintain.png)`
+![](./preview/500-maintain.png)
 
 ### 版权
 #### 插画与图标 [https://igoutu.cn/](https://igoutu.cn/)
