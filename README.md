@@ -13,7 +13,7 @@
 > 组件库以及编辑器使用git subModule的方式集成
 
 
-## 本地运行(需完整代码权限)  
+## 本地运行(需购买完整代码权限)  
 
 > $ git clone --recurse-submodules https://github.com/Cc-Edit/CcView.git`    
 
