@@ -115,7 +115,7 @@ export default function Banner() {
   initScaleWindow();
   const { theme } = useThemeSwitch();
   const isDark = theme === 'dark';
-  const [videoSrc, setVideoSrc] = useState('/banner/flip-0.mp4');
+  const [videoSrc, setVideoSrc] = useState('/banner/flip-1.mp4');
   const canvas = useRef<HTMLCanvasElement>(null);
   const videoEl = useRef<HTMLVideoElement>(null);
   const scene = new Scene();
