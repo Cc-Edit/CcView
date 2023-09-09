@@ -17,11 +17,10 @@ import {
   Group,
   PlaneGeometry
 } from 'three';
-import { getRandomItem } from '@/utils/common';
 import useThemeSwitch from '@/components/Design/hook/useThemeSwitch';
 
 const canvasOptions = {
-  videoSource: ['/banner/flip-1.mp4', '/banner/flip-3.mp4', '/banner/flip-2.mp4'],
+  // videoSource: ['/banner/flip-1.mp4', '/banner/flip-3.mp4', '/banner/flip-2.mp4'],
   width: 1000,
   height: 600,
   baseWindow: {
@@ -116,7 +115,7 @@ export default function Banner() {
   initScaleWindow();
   const { theme } = useThemeSwitch();
   const isDark = theme === 'dark';
-  const [videoSrc, setVideoSrc] = useState(getRandomItem(canvasOptions.videoSource));
+  const [videoSrc, setVideoSrc] = useState('/banner/flip-0.mp4');
   const canvas = useRef<HTMLCanvasElement>(null);
   const videoEl = useRef<HTMLVideoElement>(null);
   const scene = new Scene();
