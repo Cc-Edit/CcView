@@ -8,22 +8,25 @@
 
 # CcView
 
+## demo地址
+> https://ccedit.com/
+
 ## 版权
 仅限于个人学习使用，不可用于商业用途  
 商用需联系作者购买授权  
 软著登记号：2023SR1434342
 
-
-## demo地址
-> https://ccedit.com/
-
-## 代码权限
-> 组件库以及编辑器使用git subModule的方式集成
+## 核心库
+> 组件库以及编辑器使用git subModule的方式集成  
+### 低代码组件库
+[白露 https://github.com/Cc-Edit/CcBailu](https://github.com/Cc-Edit/CcBailu)
+### 后台服务
+[CcServer https://github.com/Cc-Edit/CcServer](https://github.com/Cc-Edit/CcServer)
 
 
 ## 本地运行
 
-> $ git clone --recurse-submodules https://github.com/Cc-Edit/CcView.git`    
+> $ git clone --recurse-submodules https://github.com/Cc-Edit/CcView.git    
 
 或
 >
@@ -34,18 +37,16 @@
 更新所有子模块    
 > $ git submodule update --remote
 
-本地运行：   
-
+本地运行：
 > $ yarn install   
 > $ yarn dev
+
 
 ## 设计原则
 
 ### 数据驱动
 整个应用的核心就是数据驱动，将所有可被抽象的逻辑全部抽象为 jsonSchema   
 整个应用遵守配置化、描述化原则
-
-## 核心
 
 ### JSON to Form 表单描述
 表单的创建与校验，全部集中到配置文件中 [form](src/config/form)  
