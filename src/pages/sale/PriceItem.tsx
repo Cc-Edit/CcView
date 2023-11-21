@@ -49,10 +49,10 @@ export default function PriceItem({ className = '', data = {}}: PriceItemProp) {
   return (
     <div className={`${className} w-1/3 relative z-0 rounded-lg bg-zinc-200 dark:bg-zinc-300 border border-dashed border-neutral-500 hover:-translate-y-2 transition-all duration-300`}>
       {
-        isRecommend && <Icon className='absolute rotate-12 top-1 right-1' path='/icon/recommend.png' />
+        isRecommend && <Icon className='absolute top-1 right-1' path='/icon/seal.png' />
       }
       {
-        isFree && <Icon className='absolute top-1 right-1' path='/icon/seal.png' />
+        isFree && <Icon className='absolute rotate-12 top-1 right-1' path='/icon/recommend.png' />
       }
       {
         isVIp && <Icon className='absolute top-1 right-1' path='/icon/vipt.png' />
@@ -76,7 +76,7 @@ export default function PriceItem({ className = '', data = {}}: PriceItemProp) {
         </div>
         <div className='w-full relative flex flex-row justify-center items-center py-2 mt-2'>
           <div className='text-sm text-neutral-500 mr-5 text-left line-through'>原价：￥{price.old}</div>
-          <div className='text-xl text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-600 flex justify-center items-center'>{
+          <div className='text-xl text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-600 flex justify-center items-center leading-9'>{
             price.now === -1 ? '暂无报价' : (<span>促销价:￥<b className='text-3xl'>{price.now}</b></span>)
           }</div>
         </div>

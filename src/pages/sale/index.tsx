@@ -1,25 +1,9 @@
 import PriceItem from './PriceItem';
 export default function Sale() {
   const freeData = {
-    title: '主题版本',
-    desc: '包含框架模板以及主题样式，可用于快速初始化项目',
+    title: '社区版本',
+    desc: '包含当前最新版本的完整项目代码，用于个人学习低代码项目开发',
     isFree: true,
-    moduleList: [
-      'React18 + Next.js 基础框架',
-      '404、500 动态页面模板',
-      'Json 创建表单模块',
-      '基础示例页面： 10+',
-      '基础组件： 20+'
-    ],
-    price: {
-      old: '399',
-      now: '0'
-    }
-  };
-  const proData = {
-    title: '全量版本',
-    desc: '包含当前最新版本的完整项目代码，用于低代码类产品的快速起步',
-    isRecommend: true,
     moduleList: [
       '主题版本所有内容',
       '大屏编辑器模块',
@@ -32,19 +16,18 @@ export default function Sale() {
     ],
     price: {
       old: '29999',
-      now: '3288'
+      now: '0'
     }
   };
   const vipData = {
-    title: '开发者版本',
-    desc: '永久提供项目最新版本，优先响应问题，产品建议优先排期',
+    title: '商用版本',
+    desc: '提供软件所有源码商用授权',
     isVIp: true,
     moduleList: [
-      '全量版本所有内容',
-      '分配 GitHub 项目权限',
-      '加入开发者协作群，共享技术文档',
-      '产品建议优先排期，问题优先处理',
-      '后续功能免费升级'
+      '组件库商用授权',
+      '编辑器商用授权',
+      '后端服务商用授权',
+      '源码使用商用授权'
     ],
     price: {
       old: '59999',
@@ -73,8 +56,8 @@ export default function Sale() {
           <div className='container max-w-full mx-auto py-12 px-6'>
             <div className='max-w-full'>
               <div className='relative flex flex-nowrap  flex-col md:flex-row items-center'>
-                <PriceItem className='w-100  2xl:w-120  shrink-0 mr-8' data={freeData} />
-                <PriceItem className='w-100  2xl:w-120 shrink-0 scale-110 z-10' data={proData}/>
+                {/* <PriceItem className='w-100  2xl:w-120  shrink-0 mr-8' data={freeData} />*/}
+                <PriceItem className='w-100  2xl:w-120 shrink-0 scale -110 z-10' data={freeData}/>
                 <PriceItem className='w-100  2xl:w-120 shrink-0 ml-8' data={vipData}/>
                 <PriceItem className='w-100  2xl:w-120 shrink-0 ml-4' data={upData}/>
               </div>

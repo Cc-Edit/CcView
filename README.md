@@ -8,6 +8,12 @@
 
 # CcView
 
+## 版权
+仅限于个人学习使用，不可用于商业用途  
+商用需联系作者购买授权  
+软著登记号：2023SR1434342
+
+
 ## demo地址
 > https://ccedit.com/
 
@@ -15,7 +21,7 @@
 > 组件库以及编辑器使用git subModule的方式集成
 
 
-## 本地运行(需购买完整代码权限)  
+## 本地运行
 
 > $ git clone --recurse-submodules https://github.com/Cc-Edit/CcView.git`    
 
@@ -99,7 +105,7 @@
 #### 维护页面
 ![](./preview/500-maintain.png)
 
-### 版权
+### 工具类库
 #### 插画与图标 [https://igoutu.cn/](https://igoutu.cn/)
 #### Icons by icons8: [icons8.com](https://icons8.com)
 #### 画板标尺 (基于 react18 翻新 mb-sketch-ruler )： [mb-sketch-ruler](https://github.com/mockingbot/mb-sketch-ruler)
