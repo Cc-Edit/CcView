@@ -52,6 +52,7 @@
     "@next/bundle-analyzer": "13.4.4",
     "@svgr/webpack": "8.0.1",
     "@types/loadable__component": "5.13.4",
+    "@types/lodash": "^4.14.202",
     "@types/node": "20.2.5",
     "@types/nprogress": "0.2.0",
     "@types/react": "18.2.8",
